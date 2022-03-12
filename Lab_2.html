@@ -1,0 +1,70 @@
+<html>
+    <head>
+<script>
+
+    function lessOrEqual(x) {
+        if (x<=0){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+    function calPoints (wins, draws, losses){
+var total;
+total = wins*3+draws*1+losses*0;
+return total;
+    }
+
+    function oddOrEven() {
+        var i = 0;
+       while (i<11) {
+        if (i === 1 || i % 2 == 1){
+            console.log (i, "is odd");
+        }
+        else {
+            console.log(i, "is even");
+        }
+        i++;
+        }
+    }
+    function helloWorlds(x) {
+        if (isNaN(x)) {
+                console.log("Goodbye world");
+            
+        }
+        else {
+            for (i=0; i<x; i++){
+                console.log("Hello world");
+        }
+    }
+}
+function buildArray(x) {
+    var myArray = [];
+    for (i=0; i<x; i++){
+        myArray[i]= i;
+        console.log(myArray[i]);
+
+    }
+    return myArray;
+}
+function emptyArray (myArray=[]){
+    for (i=0; i!==myArray.length;){
+myArray.shift();
+    }
+    return myArray;
+}
+
+
+
+function findFacts (city){
+        console.log(city.name, " has a population of ",city.population, " and is located in ",city.continent);
+
+}
+
+</script>
+     </head>
+<body>
+    
+</body>
+</html>
