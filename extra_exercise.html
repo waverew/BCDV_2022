@@ -1,0 +1,47 @@
+<html>
+    <head>
+        
+        <script>
+            console.log('My first JS function');
+let helloWorld = function (){
+console.log('Hello world');
+}
+let displayMessage = function (){
+    var message = promptUser();
+if (message == null) {
+    console.log('message is null');
+
+}
+else if (message === ""){
+    console.log('message is empty');
+}
+else {
+    console.log(message);
+}
+}
+let promptUser = function(a){
+    a = window.prompt('Enter something', 0);
+    return a;
+}
+let addNumbers = function (a,b){
+    a = promptUser();
+    a = parseInt(a);
+    b = promptUser();
+    b = parseInt(b);
+    console.log(a+b);
+
+
+}
+let subtractNumbers = function (a,b){
+    a = promptUser();
+    a = parseInt(a);
+    b = promptUser();
+    b = parseInt(b);
+    console.log(a-b);
+}
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
