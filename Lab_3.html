@@ -19,11 +19,8 @@
             greeter(['Rendy','Kyle','Stan'], 3);
 
             let capitalizedLetters = function (a){
-                const map1 = ((a.charAt(0).toUpperCase()+a.slice(1)));
-                for (i=0; i<=a.length; i++){
-                    a[i]=map1;
-                }
-                return map1;
+               return a.map(function(capital){return capital.charAt(0).toUpperCase()+capital.slice(1)});
+             
             }
             
             function isBigEnough(value) {
