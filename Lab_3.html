@@ -18,7 +18,7 @@
 
             greeter(['Rendy','Kyle','Stan'], 3);
 
-            let capitalizedLetters = function (a=['red', 'green', 'blue']){
+            let capitalizedLetters = function (a){
                 const map1 = ((a.charAt(0).toUpperCase()+a.slice(1)));
                 for (i=0; i<=a.length; i++){
                     a[i]=map1;
@@ -33,17 +33,6 @@
             }
             let filtered = [2,3,4,5,23,26,84,123].filter(isBigEnough);
             
-            const capitalizeFirstLetter = ([ first, ...rest ], locale = navigator.language) =>
-  first.toLocaleUpperCase(locale) + rest.join('')
-
-console.log(
-  capitalizeFirstLetter('foo'), // Foo
-  capitalizeFirstLetter("𐐶𐐲𐑌𐐼𐐲𐑉"), // "𐐎𐐲𐑌𐐼𐐲𐑉" (correct!)
-  capitalizeFirstLetter("italya", 'tr') // İtalya" (correct in Turkish Latin!)
-)
-
-
-
         </script>
     </head>
     <body>
