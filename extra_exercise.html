@@ -39,6 +39,40 @@ let subtractNumbers = function (a,b){
     b = parseInt(b);
     console.log(a-b);
 }
+let multipleNumber = function (a,b){
+    a = promptUser();
+    a = parseInt(a);
+    b = promptUser();
+    b = parseInt(b);
+    console.log(a*b);
+}
+let divideNumber = function (a,b){
+    a = promptUser();
+    a = parseInt(a);
+    b = promptUser();
+    b = parseInt(b);
+    console.log(a/b);
+}
+let addOrSubctract = function (a) {
+    alert('+ or - or * or /');
+    a = promptUser();
+    if (a==='+') {
+        addNumbers();
+    }
+    else if (a==='-'){
+        subtractNumbers();
+    }
+    else if (a===('*')){
+        multipleNumber();
+    }
+    else if (a==='/'){
+        divideNumber();
+    }
+    else {
+        console.log('wrong input');
+    }
+
+}
         </script>
     </head>
     <body>
