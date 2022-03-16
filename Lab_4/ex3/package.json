@@ -1,0 +1,15 @@
+{
+  "name": "ex3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ex3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kaban4ik",
+  "license": "ISC",
+  "dependencies": {
+    "package": "^1.0.1",
+    "say": "^0.16.0"
+  }
+}
