@@ -10,3 +10,5 @@ function fn () {
 }
 eventEmmiter.on('call',fn);
 eventEmmiter.emit('call');
+
+//ex2 is done in ./ex1/main.js
